@@ -1,0 +1,17 @@
+benchmark,method,relative_l2_mean,relative_l2_std,reported_runs,wall_clock_s_mean,comparison_symbol,source_tex_label,source_error_row_1based,source_time_row_1based,source_method_column_1based
+Klein-Gordon,NASPINN,1.42E-04,3.46E-05,10,1320,+,tab:main_benchmark_results,1,2,2
+Klein-Gordon,XPINN,1.55E-04,5.88E-05,10,720,+,tab:main_benchmark_results,1,2,3
+Klein-Gordon,PINN,1.92E-04,7.92E-05,10,556,+,tab:main_benchmark_results,1,2,4
+Klein-Gordon,EvoHPINN,1.10E-04,1.79E-05,10,1088,,tab:main_benchmark_results,1,2,5
+Burgers,NASPINN,8.45E-05,2.15E-05,10,1510,+,tab:main_benchmark_results,3,4,2
+Burgers,XPINN,1.17E-04,3.96E-05,10,860,+,tab:main_benchmark_results,3,4,3
+Burgers,PINN,8.00E-05,7.84E-06,10,678,+,tab:main_benchmark_results,3,4,4
+Burgers,EvoHPINN,5.53E-05,1.57E-05,10,1065,,tab:main_benchmark_results,3,4,5
+Lame,NASPINN,2.68E-04,6.50E-05,10,2980,+,tab:main_benchmark_results,5,6,2
+Lame,XPINN,3.12E-04,8.70E-05,10,1620,+,tab:main_benchmark_results,5,6,3
+Lame,PINN,3.45E-04,1.12E-04,10,1245,+,tab:main_benchmark_results,5,6,4
+Lame,EvoHPINN,2.23E-04,4.85E-05,10,1892,,tab:main_benchmark_results,5,6,5
+Navier-Stokes,NASPINN,5.18E-04,1.20E-04,10,4250,+,tab:main_benchmark_results,7,8,2
+Navier-Stokes,XPINN,6.04E-04,1.58E-04,10,2310,+,tab:main_benchmark_results,7,8,3
+Navier-Stokes,PINN,6.52E-04,1.95E-04,10,1820,+,tab:main_benchmark_results,7,8,4
+Navier-Stokes,EvoHPINN,4.00E-04,8.90E-05,10,2380,,tab:main_benchmark_results,7,8,5

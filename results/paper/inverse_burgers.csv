@@ -1,0 +1,7 @@
+method,field_relative_l2_mean,field_relative_l2_std,viscosity_mean,viscosity_std,viscosity_relative_error_percent_reported,wall_clock_s_reported,reported_runs,comparison_symbol,source_tex_label,source_row_1based
+PINN,1.505e-2,8.33e-4,0.0098,0.0001,2.20,87,10,+,tab:inverse_burgers,1
+XPINN,3.375e-2,4.04e-3,0.0098,0.0002,1.70,130,10,+,tab:inverse_burgers,2
+NASPINN,1.325e-2,1.34e-3,0.0098,0.0001,1.99,96,10,+,tab:inverse_burgers,3
+SA-PINN,1.556e-2,1.15e-3,0.0099,0.0001,1.31,89,10,+,tab:inverse_burgers,4
+APINN,1.570e-2,1.20e-3,0.0099,0.0002,1.25,163,10,+,tab:inverse_burgers,5
+EvoHPINN,1.221e-2,9.03e-4,0.0099,0.0002,1.23,91,10,,tab:inverse_burgers,6

@@ -1,0 +1,251 @@
+{
+  "description": "Derived from manuscript tables and copied manuscript figure assets; not rerun results.",
+  "source_file": "EvoHPINN_manuscript.tex",
+  "source_sha256": "8889fcd94262fef0d97166cb08b3c9a28c4c65d08b71bee5ce9f01c74f9d9888",
+  "reported_run_count": 10,
+  "run_count_source": "Global experiment reporting statement: mean +/- standard deviation over 10 runs unless stated otherwise; hemodynamic tables report means.",
+  "tables": {
+    "forward_benchmarks.csv": {
+      "tex_label": "tab:main_benchmark_results",
+      "table_block_sha256": "d203fcb84e31d5dcdb945c5f3473dcf45f84b3977ea39a37737e0486a2c9495d",
+      "source_start_line": 274,
+      "source_rows": [
+        [
+          "Klein--Gordon",
+          "$1.42\\text{E-04} \\pm 3.46\\text{E-05}$ (+)",
+          "$1.55\\text{E-04} \\pm 5.88\\text{E-05}$ (+)",
+          "$1.92\\text{E-04} \\pm 7.92\\text{E-05}$ (+)",
+          "$\\mathbf{1.10\\text{E-04}} \\pm \\mathbf{1.79\\text{E-05}}$"
+        ],
+        [
+          "{Wall-clock (s)}",
+          "{$1320$}",
+          "{$720$}",
+          "{$556$}",
+          "{$1088$}"
+        ],
+        [
+          "Burgers",
+          "$8.45\\text{E-05} \\pm 2.15\\text{E-05}$ (+)",
+          "$1.17\\text{E-04} \\pm 3.96\\text{E-05}$ (+)",
+          "$8.00\\text{E-05} \\pm \\textbf{7.84\\text{E-06}}$ (+)",
+          "$\\textbf{5.53\\text{E-05}} \\pm 1.57\\text{E-05}$"
+        ],
+        [
+          "{Wall-clock (s)}",
+          "{$1510$}",
+          "{$860$}",
+          "{$678$}",
+          "{$1065$}"
+        ],
+        [
+          "{Lam\\'e}",
+          "{$2.68\\text{E-04} \\pm 6.50\\text{E-05}$ (+)}",
+          "{$3.12\\text{E-04} \\pm 8.70\\text{E-05}$ (+)}",
+          "{$3.45\\text{E-04} \\pm 1.12\\text{E-04}$ (+)}",
+          "{$\\mathbf{2.23\\text{E-04}} \\pm \\mathbf{4.85\\text{E-05}}$}"
+        ],
+        [
+          "{Wall-clock (s)}",
+          "{$2980$}",
+          "{$1620$}",
+          "{$1245$}",
+          "{$1892$}"
+        ],
+        [
+          "{Navier--Stokes}",
+          "{$5.18\\text{E-04} \\pm 1.20\\text{E-04}$ (+)}",
+          "{$6.04\\text{E-04} \\pm 1.58\\text{E-04}$ (+)}",
+          "{$6.52\\text{E-04} \\pm 1.95\\text{E-04}$ (+)}",
+          "{$\\mathbf{4.00\\text{E-04}} \\pm \\mathbf{8.90\\text{E-05}}$}"
+        ],
+        [
+          "{Wall-clock (s)}",
+          "{$4250$}",
+          "{$2310$}",
+          "{$1820$}",
+          "{$2380$}"
+        ]
+      ],
+      "csv_sha256": "67acc2c25daa792ec8c9a1c1b9f1463ce4bc1ff527640eafbd7a4b544da36328",
+      "row_count": 16
+    },
+    "inverse_burgers.csv": {
+      "tex_label": "tab:inverse_burgers",
+      "table_block_sha256": "716b0e5cae1e333c9bde31363d0b4a6885053087a224b5a6b86951d7ba025de2",
+      "source_start_line": 679,
+      "source_rows": [
+        [
+          "PINN",
+          "$1.505\\!\\times\\!10^{-2} \\pm 8.33\\!\\times\\!10^{-4}$ (+)",
+          "$0.0098 \\pm 0.0001$",
+          "$2.20\\%$",
+          "$87$"
+        ],
+        [
+          "XPINN",
+          "$3.375\\!\\times\\!10^{-2} \\pm 4.04\\!\\times\\!10^{-3}$ (+)",
+          "$0.0098 \\pm 0.0002$",
+          "$1.70\\%$",
+          "$130$"
+        ],
+        [
+          "NASPINN",
+          "$1.325\\!\\times\\!10^{-2} \\pm 1.34\\!\\times\\!10^{-3}$ (+)",
+          "$0.0098 \\pm 0.0001$",
+          "$1.99\\%$",
+          "$96$"
+        ],
+        [
+          "SA-PINN",
+          "$1.556\\!\\times\\!10^{-2} \\pm 1.15\\!\\times\\!10^{-3}$ (+)",
+          "$0.0099 \\pm 0.0001$",
+          "$1.31\\%$",
+          "$89$"
+        ],
+        [
+          "APINN",
+          "$1.570\\!\\times\\!10^{-2} \\pm 1.20\\!\\times\\!10^{-3}$ (+)",
+          "$0.0099 \\pm 0.0002$",
+          "$1.25\\%$",
+          "$163$"
+        ],
+        [
+          "\\textbf{EvoHPINN}",
+          "$\\mathbf{1.221\\!\\times\\!10^{-2}} \\pm 9.03\\!\\times\\!10^{-4}$",
+          "$0.0099 \\pm 0.0002$",
+          "$1.23\\%$",
+          "$91$"
+        ]
+      ],
+      "csv_sha256": "0a082133bd1559ee27c328b26af890d26c203569ae1a2dc00c5ad640563ed1b4",
+      "row_count": 6
+    },
+    "hemodynamic_metrics.csv": {
+      "tex_label": "tab:stenosis_results",
+      "table_block_sha256": "65e8be97a35710382610b64a38a783ab44d0f15f057b1d5958d1e41a77adea8d",
+      "source_start_line": 844,
+      "source_rows": [
+        [
+          "PINN",
+          "$1.13\\times10^{-3}$",
+          "$2.90\\times10^{-3}$",
+          "$1.57\\times10^{-4}$",
+          "$3419.0$"
+        ],
+        [
+          "XPINN",
+          "$6.96\\times10^{-2}$",
+          "$4.77\\times10^{-2}$",
+          "$4.17\\times10^{-3}$",
+          "$9343.0$"
+        ],
+        [
+          "NASPINN",
+          "$1.20\\times10^{-3}$",
+          "$6.08\\times10^{-3}$",
+          "$1.32\\times10^{-4}$",
+          "$1867.2$"
+        ],
+        [
+          "SA-PINN",
+          "$8.86\\times10^{-4}$",
+          "$1.96\\times10^{-3}$",
+          "$2.06\\times10^{-4}$",
+          "$3109.5$"
+        ],
+        [
+          "APINN",
+          "$1.31\\times10^{-3}$",
+          "$3.48\\times10^{-3}$",
+          "$1.70\\times10^{-4}$",
+          "$5278.3$"
+        ],
+        [
+          "\\textbf{EvoHPINN}",
+          "$\\mathbf{6.45\\times10^{-4}}$",
+          "$\\mathbf{1.78\\times10^{-3}}$",
+          "$\\mathbf{6.98\\times10^{-5}}$",
+          "$4052.0$"
+        ]
+      ],
+      "csv_sha256": "fdf81c60394acb9363e731ad1c6a760e1a0db4565b2d2d232c80c17762e23b72",
+      "row_count": 6
+    },
+    "hemodynamic_components.csv": {
+      "tex_label": "tab:stenosis_components",
+      "table_block_sha256": "714e11b72789be7a772daf22e9b36265404e8ae0996e63249748004f3d00332d",
+      "source_start_line": 1626,
+      "source_rows": [
+        [
+          "PINN",
+          "$6.23\\times10^{-4}$",
+          "$1.24\\times10^{-3}$",
+          "$1.53\\times10^{-3}$"
+        ],
+        [
+          "XPINN",
+          "$2.30\\times10^{-2}$",
+          "$4.01\\times10^{-2}$",
+          "$1.46\\times10^{-1}$"
+        ],
+        [
+          "NASPINN",
+          "$7.32\\times10^{-4}$",
+          "$1.17\\times10^{-3}$",
+          "$1.68\\times10^{-3}$"
+        ],
+        [
+          "SA-PINN",
+          "$5.02\\times10^{-4}$",
+          "$8.83\\times10^{-4}$",
+          "$1.27\\times10^{-3}$"
+        ],
+        [
+          "APINN",
+          "$6.87\\times10^{-4}$",
+          "$1.16\\times10^{-3}$",
+          "$2.07\\times10^{-3}$"
+        ],
+        [
+          "\\textbf{EvoHPINN}",
+          "$\\mathbf{4.17\\times10^{-4}}$",
+          "$\\mathbf{6.58\\times10^{-4}}$",
+          "$\\mathbf{8.61\\times10^{-4}}$"
+        ]
+      ],
+      "csv_sha256": "2af1cbee50daa5f73fc4961f6e84002b5ab06f5d84bb78c8e8d038d510ad1bfb",
+      "row_count": 6
+    }
+  },
+  "figures": {
+    "figures/inverse_fields.pdf": {
+      "source_file": "inverse_fields.pdf",
+      "tex_label": "fig:inverse_heatmap",
+      "panel": "all panels",
+      "sha256": "21298127f714423ecc757cc469c106e705fa0ce4bc737f295b7233f83b0d1d70",
+      "bytes": 21293557
+    },
+    "figures/flow_velocity.pdf": {
+      "source_file": "flow_velocity.pdf",
+      "tex_label": "fig:stenosis_setup_solution",
+      "panel": "panel b",
+      "sha256": "1adc691388eff0228dbbe720a3f8523e5a7aa4df75dcd14174cdc785e39ea3ad",
+      "bytes": 596011
+    },
+    "figures/wss_curve.pdf": {
+      "source_file": "wss_curve.pdf",
+      "tex_label": "fig:stenosis_solution",
+      "panel": "panel a",
+      "sha256": "bdbd95aecfce4a5983d6f46f8872c382e684aa711d6b3bd0b9c8e6c9ad6c0fbd",
+      "bytes": 15696
+    },
+    "figures/pressure_curve.pdf": {
+      "source_file": "pressure_curve.pdf",
+      "tex_label": "fig:stenosis_solution",
+      "panel": "panel b",
+      "sha256": "5b710fcf8a42089bc1797c6e7927e22d60a70cb8c0d006dee6c74333bde18e4e",
+      "bytes": 14794
+    }
+  }
+}

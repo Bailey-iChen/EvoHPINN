@@ -1,0 +1,7 @@
+method,u_relative_l2_mean,v_relative_l2_mean,p_relative_l2_mean,reported_runs,source_tex_label,source_row_1based
+PINN,6.23e-4,1.24e-3,1.53e-3,10,tab:stenosis_components,1
+XPINN,2.30e-2,4.01e-2,1.46e-1,10,tab:stenosis_components,2
+NASPINN,7.32e-4,1.17e-3,1.68e-3,10,tab:stenosis_components,3
+SA-PINN,5.02e-4,8.83e-4,1.27e-3,10,tab:stenosis_components,4
+APINN,6.87e-4,1.16e-3,2.07e-3,10,tab:stenosis_components,5
+EvoHPINN,4.17e-4,6.58e-4,8.61e-4,10,tab:stenosis_components,6

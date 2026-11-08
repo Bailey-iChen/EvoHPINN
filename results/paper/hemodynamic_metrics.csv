@@ -1,0 +1,7 @@
+method,combined_field_error_mean,wss_relative_l2_mean,pressure_drop_relative_absolute_error_mean,wall_clock_s_reported,reported_runs,source_tex_label,source_row_1based
+PINN,1.13e-3,2.90e-3,1.57e-4,3419.0,10,tab:stenosis_results,1
+XPINN,6.96e-2,4.77e-2,4.17e-3,9343.0,10,tab:stenosis_results,2
+NASPINN,1.20e-3,6.08e-3,1.32e-4,1867.2,10,tab:stenosis_results,3
+SA-PINN,8.86e-4,1.96e-3,2.06e-4,3109.5,10,tab:stenosis_results,4
+APINN,1.31e-3,3.48e-3,1.70e-4,5278.3,10,tab:stenosis_results,5
+EvoHPINN,6.45e-4,1.78e-3,6.98e-5,4052.0,10,tab:stenosis_results,6
